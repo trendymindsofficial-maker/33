@@ -9,7 +9,7 @@ const App = dynamic(() => import('../App'), {
         Loading SPC Student Privilege Card...
       </div>
     </div>
-  )
+  ),
 });
 
 export default function Page() {

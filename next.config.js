@@ -1,2 +1,5 @@
-// SPC Application Root Component
-export default function App() { return null; }
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: { unoptimized: true },
+};
+module.exports = nextConfig;
